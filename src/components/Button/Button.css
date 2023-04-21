@@ -1,0 +1,31 @@
+button{
+    height: 120px;
+    width: 21%;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    border: none;
+    font-size: 4rem;
+    transition: all 0.5s ease;
+}
+
+button:hover{
+    background-color: #959595;
+    cursor: pointer;
+}
+
+button:active{
+    transform: translateY(-5px);
+}
+
+.equals{
+    background-color: #4589AE;
+}
+
+.equals:hover{
+    background-color: #336987;
+}
+
+.clear{
+    height: 110px;
+    margin-left: 8px;
+}
