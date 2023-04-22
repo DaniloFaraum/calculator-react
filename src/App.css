@@ -23,3 +23,10 @@
   display: flex;
   max-width: 810px;
 }
+
+@media (max-width: 376px){
+  .top{
+    max-width: 360px;
+  }
+}
+  
