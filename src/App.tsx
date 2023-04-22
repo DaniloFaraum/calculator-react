@@ -8,11 +8,11 @@ export function App() {
   const [expression, setExpression] = useState("")
 
   const addNumber = (e: any) =>{
-    if(expression.length<=17){
+   // if(expression.length<=17){
       setExpression(expression+e.currentTarget.id)
       console.log(e.currentTarget.id);
       console.log(expression.length);      
-    }
+   // }
   }
 
   const clear = () =>{
